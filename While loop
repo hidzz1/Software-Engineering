@@ -1,0 +1,12 @@
+numbers=[]
+while True:
+#ask user to enter number 
+    ans=input("Please enter a number: ")
+#keep asking user to enter a number unless it is -1 
+    if ans=="-1":
+        break
+    else:
+        numbers.append(float(ans))
+#once -1 is entered, calculate average of numbers entered before 
+print(sum(numbers)/len(numbers))
+
