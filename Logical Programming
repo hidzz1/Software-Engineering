@@ -1,0 +1,23 @@
+#first find out how long it took for user to complete each race 
+swimming=int(input("How many minutes did it take to complete swimming?")
+cycling=int(input("How many minutes did it take to complete cycling?")
+running=int(input("How many minutes did it take to complete running?")
+
+#total is all of the times combined 
+total = swimming + cycling + running
+
+#now give award based on time taken 
+If (total <= 100 minutes): 
+ print("Congratulations, you have won the Provincial Colours Award!")
+
+If (total>101 minutes) and   if (total <105 minutes):
+ print("Congratulations, you have won the Provincial Half Colours Award!")
+
+
+If (total >106 minutes) and   (speed<110 minutes): 
+
+ print("Congratulations, you have won the Provincial Scroll Award!")
+
+ 
+If (total >=111 minutes):
+print("Sorry unfortunately, you have not won any Award")
